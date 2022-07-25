@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import {  useState } from 'react';
 import './App.css';
-import Footer from './components/Footer';
-import Footertop from './components/Footer/FooterTop';
-import Header from './components/Header';
+import Footer from './components/footer';
+import Footertop from './components/footer/FooterTop';
+import Header from './components/header';
 import List from './components/List';
 const initialState = [
   { todo: "Learn React", done: false },
